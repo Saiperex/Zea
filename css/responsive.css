@@ -1,0 +1,85 @@
+@media screen and (max-width:460px) 
+{
+    /*cabecera*/
+    .cabecera
+    {
+        width: 100vw;
+        background-color: #0e0e0e;
+    }   
+    .cabecera_contenedor
+    {
+        display: none;
+    } 
+    /*fin cabecera*/
+
+    /*secciones*/
+    /*1:inicio*/
+    .inicio_conteiner
+    {
+        flex-direction: column;
+    }
+    .inicio_div
+    {
+        width: 100%;
+    }
+    .inicio_img
+    {
+        height: 50%;
+    }
+    .inicio_content-centrar
+    {
+        width: 90%;
+        height: 90%;
+        box-shadow: 5px 5px 5px 5px rgb(34 140 55 / .3);
+    }
+    .inicio_content-centrar h1
+    {
+        font-size: 2.5vh;
+    }
+    .inicio_content-centrar legend
+    {
+        font-size: 2.5vh;
+    }
+    .inicio_content-centrar p
+    {
+        font-size: 2vh;
+    }
+    .inicio_img
+    {
+        background-size: contain;
+    }
+    /*fin inicio*/
+
+    /*2:Servicios*/
+    .servicios
+    {
+        height: 300vh;
+    }
+    .servicios_conteiner
+    {
+        height: 290vh;
+    }
+    .servicios_conteiner-cards
+    {
+        width: 100%;
+        flex-direction: column;
+        height: 90%;
+    }
+    .servicios-card
+    {
+        width: 90%;
+        height: 30%;
+    }
+    .servicios_conteiner h2
+    {
+        text-align: center;
+    }
+    .servicios_conteiner legend
+    {
+        text-align: center;
+    }
+    .reparacion
+    {
+        background-size: cover;
+    }
+}
